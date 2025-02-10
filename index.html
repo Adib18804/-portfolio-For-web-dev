@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta tags for character set, compatibility, and viewport settings -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    
+    <!-- Title of the webpage -->
+    <title>RESPONSIVE PERSONAL PORTFOLIO WEBSITE </title>
+    
+    <!-- Linking external stylesheets and icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" type="image/x-icon" href="img/favicon.png"> <!-- Favicon icon -->
+    <link rel="stylesheet" type="text/css" href="style.css"> <!-- Linking to the main stylesheet -->
+</head>
+
+<body>
+    <!-- HEADER SECTION -->
+    <header class="header">
+        <!-- Logo and menu icon -->
+        <a href="#" class="logo">Portfolio</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        
+        <!-- Navigation menu -->
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">ABOUT</a>
+            <a href="#services">SERVICES</a>
+            <a href="#portfolio">PORTFOLIO</a>
+            <a href="#contact">CONTACT</a>
+        </nav>
+    </header>
+
+    <!-- HOME SECTION -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <!-- Introduction text -->
+            <h3>Hello,It's Me</h3>
+            <h1>Mohammad Adib Abtahi</h1>
+            <h3>And I'm a <span class="multiple-text">Web Developer,Ethical Hacker</span></h3>
+            
+            <!-- Social media links -->
+            <div class="social-media">
+                <a href="https://github.com/Adib18804" target="_blank"><i class='bx bxl-github'></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100075931563314" target="_blank"><i class='bx bxl-facebook'></i></a>
+                <a href="https://www.instagram.com/_adib_abtahi_/" target="_blank"><i class='bx bxl-instagram'></i></a>
+                <a href="https://www.linkedin.com/in/mohammad-adib-abtahi-665901319/" target="_blank"><i class='bx bxl-linkedin-square'></i></a>
+            </div>
+
+            <!-- CV download link -->
+            <a href="C:\Users\shrey\Downloads\B.-Software-Engineer.docx" class="btn">Download CV</a>
+        </div>
+        
+        <!-- Profile image -->
+        <div class="home-img">
+            <img src="img/adib abtahi.jpg" style="height: 420px; width: 320px;" alt="Adib Abtahi">
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="img/about me.png" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3><span>Web Developer,Ethical Hacker</span></h3>
+            <!-- Description about Adib -->
+            <p>
+                I am a passionate Web Developer with a strong foundation in building dynamic, user-friendly websites and applications. My expertise includes HTML, CSS, JavaScript, PHP, and Bootstrap, with a focus on creating clean, modern, and responsive user interfaces. Alongside my web development skills, I am also an Ethical Hacker, dedicated to ensuring the security of digital platforms. By identifying and addressing vulnerabilities, I help organizations safeguard their online presence from malicious attacks. My dual expertise allows me to not only build robust websites but also secure them, ensuring both functionality and protection.
+            </p>
+
+            <!-- Button for more information -->
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <!-- SERVICES SECTION -->
+    <section class="services" id="services">
+        <h2 class="heading">Our<span>Services</span></h2>
+
+        <!-- Service boxes -->
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Web Development</h3>
+                <p>Motivated designer and developer with experience creating custom websites through PHP and CSS...</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bx-crop'></i>
+                <h3>UI/UX Design</h3>
+                <p>You cannot make a good design if you do not understand people; design is made for people.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bxs-bug'></i>
+                <h3>Ethical Hacker</h3>
+                <p>I'm a passionate ethical hacker dedicated to securing systems, identifying vulnerabilities, and ensuring digital safety...</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- PORTFOLIO SECTION -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest<span>Project</span></h2>
+        
+        <!-- Portfolio items -->
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="img/img4.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Personal Portfolio</h4>
+                    <p>In this project I try making my own portfolio website for myself...</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="./img/img3.jpeg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Dynamic Website Deployment in AWS</h4>
+                    <p>In this project I deployed a dynamic website in AWS...</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="img/img2.jpeg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Iris Flower Detection</h4>
+                    <p>In this project I detect the iris flower type using a machine learning prediction model...</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact<span>ME!</span></h2>
+
+        <!-- Contact form -->
+        <form action="#" name="submit-to-google-sheet">
+            <div class="input-box">
+                <input type="text" name="Name" placeholder="Full Name">
+                <input type="email" name="Email Address" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" name="Mobile Number" placeholder="Mobile Number">
+                <input type="text" name="Email Subject" placeholder="Email Subject">
+            </div>
+            <textarea name="Your Message" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+        <!-- Confirmation message -->
+        <span id="msg">Thank you for reaching out! We'll get back to you soon.</span>
+    </section>
+
+    <!-- FOOTER SECTION -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2025 by Adib | All Rights Reserved.</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+    <!-- External Scripts -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
